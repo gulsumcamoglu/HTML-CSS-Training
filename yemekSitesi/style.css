@@ -1,0 +1,325 @@
+**{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 13px;
+}
+
+header{
+    width: 100%;
+    height: 80rem;
+    width: 100%;
+   
+    border: 1px solid black;
+    background-image:url(img/background.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+.hizala{
+    width: 85%;
+    
+    height: auto;
+    margin: auto;
+}
+.hizala h1,h3{
+    color:white;
+    text-align: center;
+}
+.search{
+  
+   border-radius: 2px;
+    background-color: #FF6345;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 2rem 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+form input{
+    border:none;
+    width: 100%;
+    height: 2.2rem;
+    margin-bottom:1rem ;
+    text-indent:1.5rem; 
+}
+
+.iconBölge::placeholder{
+    background-image: url(img/placeholder.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 1.3rem;
+    z-index: -5;
+}
+
+button{
+    width: 100%;
+    height: 2.9rem;
+    background-color: #FFBE00;
+    border: none;
+    color:white;
+}
+
+button:hover{
+    background-color: white;
+    color:#FFBE00 ;
+    transition: 1s;
+}
+
+.box{
+    width: 85%;
+    height: 9rem;
+   
+    margin: auto;
+    margin-top:2rem;
+}
+
+.boxpencere{
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    background-color:#FFBE00 ;
+    padding-top:1rem;
+    float: left;
+    
+}
+.boxpencere:hover{
+    background-color: white;
+    transition:1s;
+}
+.icon1{
+    background-image: url(img/megaphone.png);
+    width:7rem;
+    height: 7rem;
+    background-size: cover;
+    margin: auto;
+}
+.icon1:hover{
+    background-image: url(img/megaphoneHover.png);
+    transition:1sn;
+}
+
+.icon2{
+    background-image: url(img/boss.png);
+    width:7rem;
+    height: 7rem;
+    background-size: cover;
+    margin: auto;
+}
+.icon2:hover{
+    background-image: url(img/bossHover.png);
+    transition:1s;
+}
+
+.icon3{
+    background-image: url(img/boss.png);
+    width:7rem;
+    height: 7rem;
+    background-size: cover;
+    margin: auto;
+}
+.icon3:hover{
+    background-image: url(img/bossHover.png);
+    transition:1s;
+}
+.icon4{
+    background-image: url(img/protection.png);
+    width:7rem;
+    height: 7rem;
+    background-size: cover;
+    margin: auto;
+}
+.icon4:hover{
+    background-image: url(img/protectionHover.png);
+    transition:1s;
+    
+}
+
+.boxinfo{
+    float: left;
+}
+
+.boxinfo p,h2{
+
+    margin-left: 2rem;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height:auto;
+   
+}
+
+main h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+.box1{
+    width: 100%;
+    height: auto;
+    border:3px solid #FFBE00;
+   padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.yemek1{
+    background-image: url(img/yemek1.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.yemek2{
+    background-image: url(img/yemek2.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.yemek3{
+    background-image: url(img/yemek3.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+
+.yemek4{
+    background-image: url(img/yemek4.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.box1 h1{
+    margin: auto;
+}
+
+footer{
+   width: 100%;
+   height:auto; 
+   background-color: #ffbe00;
+}
+
+.footerinfo{
+    width: 100%;
+    height: auto;
+    padding:1rem;
+    margin: auto;
+
+}
+.footerinfo p{
+    font-size: 1.2rem;
+}
+footer h1{
+     color: #B22222;
+     text-align: center;
+}
+.menu {
+    
+ 
+   width: 75%;
+   height: 5rem;
+   margin:auto;
+   
+   
+}
+.menu li{
+    display: inline-block;
+    background-color: #B22222;
+
+    padding:1.5rem 1.2rem;
+   
+    
+   
+    
+}
+
+.menu li a{
+   
+    color: white;
+   
+   
+    
+}
+
+.hizalalist{
+width: 80%;
+margin: auto;
+
+}
+
+footer ul{
+    list-style-type: none;
+   
+}
+
+footer li a{
+    color: black;
+    font-size:  1.2rem;
+    margin-top: 0.5rem;
+}
+
+  
+
+
+@media screen and (max-width:800px){
+    html{
+     font-size: 15px;
+    }
+
+    header{
+        height: 100rem;
+    }
+
+    .search{
+        width: auto;
+    }
+
+    .box{
+        width: auto;
+
+    }
+
+    .boxpencere{
+        width: auto;
+        height: auto;
+    }
+
+    .yemek4,.yemek1,.yemek2,.yemek3{
+        background-attachment: local;
+    }
+
+   
+ 
+}

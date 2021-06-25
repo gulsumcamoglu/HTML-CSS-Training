@@ -1,0 +1,42 @@
+body{
+    background-color: #E9ECEF;
+}
+.container{
+    margin-top: 70px;
+    text-align: center;
+}
+#brand{
+    color: brown;
+   
+   
+}
+.link{
+   text-decoration: none;
+}
+
+.hakkımızda{
+    margin-top: 3rem;
+    text-align: center;
+    color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+#hakkımızda{
+
+    width: 100%;
+    height: auto;
+}
+#name{
+    color: blueviolet;
+}
+.price{
+    border: 1px solid grey;
+    width: auto;
+    background-color: gray;
+    color: white;
+}
+
+#img{
+    height: 200px;
+}

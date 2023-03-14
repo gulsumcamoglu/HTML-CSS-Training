@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Img Dersi Notlar</title>
+</head>
+<body>
+    
+<!-- Emmet Dersi Notlar -->
+<!-- h3.deneme -->
+<h3 class="deneme"></h3>
+<!-- .deneme -->
+<div class="deneme"></div>
+<!-- .deneme>lorem1-->
+<div class="deneme">Lorem.</div>
+<!-- h3#id-->
+<h3 id="id"></h3>
+<!-- h3.deneme#id-->
+<h3 class="deneme" id="id"></h3>
+<!-- h3.class1.class2-->
+<h3 class="class1 class2"></h3>
+<!-- ul>li#item$*4-->
+<ul>
+                    <li id="item1"></li>
+                    <li id="item2"></li>
+                    <li id="item3"></li>
+                    <li id="item4"></li>
+</ul>
+<!--
+    div tagı altında "item" id'sine sahip 10 kelimelik loremleri içeren 6 adet p tagı oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?                
+-->
+div>p#item*6>lorem10
+                    <img src="https://picsum.photos/200/300" alt="Random Photos" title="image random" >  <!-- title SEO için önemlidir-->   
+                    <img src="https://picsum.photos/200" width="300" height="600">    
+                    
+                    <img src="https://picsum.photos/200" width="300" height="100%" > 
+
+                    <img src="https://picsum.photos/200" border = "3" align = "right">
+                    <a href="">
+                                        <img src="smiley.gif" style="width:42px;height:42px;">
+                    </a>
+
+                    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+                    <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                    </map>
+
+                    <img src="resim.jpg" onload="resimYuklendi()" />
+
+                    <picture>
+                                        <source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+                                        
+                                        <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
+                                    </picture>
+
+                    <img src="../" alt=""> <!-- üst dosyaya çıkma-->
+
+
+</body>
+
+<script>
+                    function resimYuklendi(){
+                        alert("Resim yüklendi.");
+                    }
+                </script>
+</html>

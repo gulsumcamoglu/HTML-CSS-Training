@@ -1,0 +1,17 @@
+body{
+                    text-align: center;
+
+
+
+}
+
+#brand{
+                    color: blueviolet;
+}
+#baslik{
+                    color: brown;
+}
+ul,ol{
+                    display: inline-block;
+                    text-align: left;
+}
